@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "984215515204",
+    "project_id": "uis-admin-app-d7f32",
+    "storage_bucket": "uis-admin-app-d7f32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984215515204:android:4ddd1fc7a2558e4e590c11",
+        "android_client_info": {
+          "package_name": "com.example.uisadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXAtiyO1_6icUh5OR8umkg3-Aqp7j1UcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
