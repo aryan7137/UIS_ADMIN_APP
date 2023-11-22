@@ -7,11 +7,14 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.example.uisadmin.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -40,9 +43,20 @@ public class TeacherAdapter extends RecyclerView.Adapter<TeacherAdapter.TeacherV
         holder.email.setText(item.getEmail());
         holder.post.setText(item.getPost());
         holder.contact.setText(item.getContact());
-        
+
+        try {
+            Picasso.get().load(item.getImage()).into(holder.imageView);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
 
+        holder.update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, "Update Teacher", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override

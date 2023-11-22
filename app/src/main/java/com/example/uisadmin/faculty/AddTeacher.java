@@ -109,6 +109,7 @@ public class AddTeacher extends AppCompatActivity {
         post = addTeacherPost.getText().toString();
         contact = addTeacherContact.getText().toString();
 
+
         if (name.isEmpty()){
             addTeacherName.setError("Empty");
             addTeacherName.requestFocus();
