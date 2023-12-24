@@ -77,7 +77,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     preprimary.setHasFixedSize(true);
                     preprimary.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list1, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list1, UpdateFaculty.this, "Pre-Primary");
                     preprimary.setAdapter(adapter);
                 }
             }
@@ -107,7 +107,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     primary.setHasFixedSize(true);
                     primary.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list2, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list2, UpdateFaculty.this, "Primary");
                     primary.setAdapter(adapter);
                 }
             }
@@ -137,7 +137,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     secondary.setHasFixedSize(true);
                     secondary.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list3, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list3, UpdateFaculty.this, "Secondary");
                     secondary.setAdapter(adapter);
                 }
             }

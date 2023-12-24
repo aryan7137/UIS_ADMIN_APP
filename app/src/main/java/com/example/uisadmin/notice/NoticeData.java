@@ -1,4 +1,4 @@
-package com.example.uisadmin;
+package com.example.uisadmin.notice;
 
 public class NoticeData {
     String title, image, date, time, key;
