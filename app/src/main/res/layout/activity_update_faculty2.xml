@@ -31,6 +31,7 @@
                 android:layout_height="wrap_content"
                 android:text="Pre-Primary"
                 android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
                 android:textSize="22sp"
                 android:textColor="@color/textColor"
                 android:textStyle="bold"
@@ -38,9 +39,9 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="4dp"
                 android:layout_marginVertical="8dp"
-                android:background="#c1c1c1"/>
+                android:background="@color/black"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
@@ -62,6 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Primary"
+                android:fontFamily="sans-serif-condensed"
                 android:gravity="center"
                 android:textSize="22sp"
                 android:textColor="@color/textColor"
@@ -70,9 +72,9 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="4dp"
                 android:layout_marginVertical="8dp"
-                android:background="#c1c1c1"/>
+                android:background="@color/black"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
@@ -96,15 +98,16 @@
                 android:text="Secondary"
                 android:gravity="center"
                 android:textSize="22sp"
+                android:fontFamily="sans-serif-condensed"
                 android:textColor="@color/textColor"
                 android:textStyle="bold"
                 android:layout_marginTop="16dp"/>
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="4dp"
                 android:layout_marginVertical="8dp"
-                android:background="#c1c1c1"/>
+                android:background="@color/black"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"

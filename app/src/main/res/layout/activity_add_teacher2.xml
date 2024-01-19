@@ -9,7 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="20dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/addTeacherImage"
@@ -91,6 +92,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/addTeacherBtn"
             android:text="Add Teacher"
+            android:background="@drawable/rounded_button_background"
             android:layout_marginTop="16dp"
             android:textAllCaps="false"/>
 

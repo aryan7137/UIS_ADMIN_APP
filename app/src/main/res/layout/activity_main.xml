@@ -19,27 +19,29 @@
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            app:cardElevation="5dp">
+            app:cardElevation="5dp"
+            app:cardCornerRadius="40px">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:background="@color/bg_black"
                 android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circle_green"
+                    android:background="@drawable/circle_yellow"
                     android:importantForAccessibility="no"
                     android:padding="15dp"
                     android:src="@drawable/ic_notice" />
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="1dp"
+                    android:layout_height="3dp"
                     android:layout_marginTop="10dp"
-                    android:background="@color/lightGray" />
+                    android:background="@color/white" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -47,7 +49,7 @@
                     android:layout_margin="5dp"
                     android:layout_marginTop="10dp"
                     android:text="Upload Notice"
-                    android:textColor="@color/textColor"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -59,27 +61,29 @@
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            app:cardElevation="5dp">
+            app:cardElevation="5dp"
+            app:cardCornerRadius="40px">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:background="@color/bg_black"
                 android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circle_purple"
+                    android:background="@drawable/circle_yellow"
                     android:importantForAccessibility="no"
                     android:padding="15dp"
                     android:src="@drawable/ic_gallery" />
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="1dp"
+                    android:layout_height="3dp"
                     android:layout_marginTop="10dp"
-                    android:background="@color/lightGray" />
+                    android:background="@color/white" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -87,7 +91,7 @@
                     android:layout_margin="5dp"
                     android:layout_marginTop="10dp"
                     android:text="Upload Image"
-                    android:textColor="@color/textColor"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -108,27 +112,29 @@
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            app:cardElevation="5dp">
+            app:cardElevation="5dp"
+            app:cardCornerRadius="40px">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:background="@color/bg_black"
                 android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circle_pink"
+                    android:background="@drawable/circle_yellow"
                     android:importantForAccessibility="no"
                     android:padding="15dp"
                     android:src="@drawable/ic_upload" />
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="1dp"
+                    android:layout_height="3dp"
                     android:layout_marginTop="10dp"
-                    android:background="@color/lightGray" />
+                    android:background="@color/white" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -136,7 +142,7 @@
                     android:layout_margin="5dp"
                     android:layout_marginTop="10dp"
                     android:text="Upload Ebook"
-                    android:textColor="@color/textColor"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -148,12 +154,14 @@
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            app:cardElevation="5dp">
+            app:cardElevation="5dp"
+            app:cardCornerRadius="40px">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:background="@color/bg_black"
                 android:orientation="vertical">
 
                 <ImageView
@@ -166,9 +174,9 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="1dp"
+                    android:layout_height="3dp"
                     android:layout_marginTop="10dp"
-                    android:background="@color/lightGray" />
+                    android:background="@color/white" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -176,7 +184,7 @@
                     android:layout_margin="5dp"
                     android:layout_marginTop="10dp"
                     android:text="Update Faculty"
-                    android:textColor="@color/textColor"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -197,27 +205,29 @@
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            app:cardElevation="5dp">
+            app:cardElevation="5dp"
+            app:cardCornerRadius="40px">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:background="@color/bg_black"
                 android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circle_red"
+                    android:background="@drawable/circle_yellow"
                     android:importantForAccessibility="no"
                     android:padding="15dp"
                     android:src="@drawable/ic_delete" />
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="1dp"
+                    android:layout_height="3dp"
                     android:layout_marginTop="10dp"
-                    android:background="@color/lightGray" />
+                    android:background="@color/white" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -225,7 +235,7 @@
                     android:layout_margin="5dp"
                     android:layout_marginTop="10dp"
                     android:text="Delete Notice"
-                    android:textColor="@color/textColor"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
 
             </LinearLayout>

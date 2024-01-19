@@ -70,6 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Update"
+            android:background="@drawable/rounded_button_background"
             android:textAllCaps="false"
             android:layout_marginRight="8dp"
             android:id="@+id/updateTeacherBtn" />
@@ -79,6 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Delete"
+            android:background="@drawable/rounded_button_background"
             android:layout_marginLeft="8dp"
             android:textAllCaps="false"
             android:id="@+id/deleteTeacherBtn" />
